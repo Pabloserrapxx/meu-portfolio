@@ -1,58 +1,50 @@
-<!-- DARK PREMIUM STYLE -->
-
-# 🌙 **Pablo Serra — MLOps & AI Engineer**
-
-> Arquiteturas escaláveis • Pipelines automatizados • IA generativa • Sistemas distribuídos
+# 🛸 PABLO SERRA — MLOPS & AI ENGINEER  
+`// pipelines • automação • inteligência artificial • cloud infra`
 
 ---
 
-## **Projeto Destaque**
-# ⚡ MLOps End-to-End na Oracle Cloud (OCI)  
-**Repo:** https://github.com/Pabloserrapxx/Projeto_MLOps
+## [🧬 PROJETO PRINCIPAL — MLOps na Oracle Cloud](https://github.com/Pabloserrapxx/Projeto_MLOps)
+STATUS: ███████░ 90%
+MODE: AUTOMATED DEPLOY + TRACKING
 
-Pipeline completo para treinar, versionar e servir modelos em produção.
+yaml
+Copiar código
 
-- Terraform para IaC  
-- GitHub Actions para CI/CD  
-- Airflow para orquestração  
-- MLflow para registro e tracking  
-- FastAPI (serving)  
-- Streamlit (UI)  
-- Docker (empacotamento)
+**STACK:** Terraform • Airflow • MLflow • FastAPI • Docker • GitHub Actions
 
 ---
 
-## **Projetos Selecionados**
+## 🐉 PROJETOS TERMINAIS
 
-### 🧠 Assistente Acadêmico Inteligente — UnB  
-**RAG + LLM + Qdrant + FastAPI**  
-Repo: https://github.com/unb-Sistemas-de-Machine-learning/Grupo2-ChiquinhoAI
+### ⚗️ Assistente Acadêmico Inteligente — *UnB Core*  
+`Qdrant • Gemini • NLP Engine • FastAPI`  
+Repo: https://github.com/unb-Sistemas-de-Machine-learning/Grupo2-ChiquinhoAI  
 
 ---
 
-### 🤖 Chatbot RAG Local com Ollama  
-**TinyLlama • ChromaDB • LangChain**  
+### 🛰️ RAG Local com Docker & Ollama  
+`TinyLlama Engine // Offline Processing`  
 Repo: https://github.com/Pabloserrapxx/LLMs
 
 ---
 
-### 🔁 Pipeline de Retreino Automático  
-**ML clássico • joblib • métricas padronizadas**  
+### ♻️ Pipeline de Retreino Automático  
+`RandomForest • joblib • standard metrics`  
 Repo: https://github.com/Pabloserrapxx/Pipeline-de-Re-treino-Autom-tico
 
 ---
 
-### 🌊 Aprendizado Incremental  
-**Stream learning com River**  
+### 🌪️ Aprendizado Incremental / Streaming  
+`River StreamModel // Online Learning`  
 Repo: https://github.com/Pabloserrapxx/modelo_de_autotreinamento
 
 ---
 
-## **Stack Principal**
-Python • Terraform • Docker • Airflow • MLflow • Qdrant • FastAPI • Streamlit
+## ⚙️ SISTEMAS & FERRAMENTAS  
+`Python • Terraform • Docker • Airflow • MLflow • LangChain • Qdrant • FastAPI`
 
 ---
 
-## **Contato**
+## 🌐 CONTATO  
 **LinkedIn:** https://www.linkedin.com/in/pablo-serra-66059b2b0/  
 **Email:** pabloserrapx4@gmail.com  
