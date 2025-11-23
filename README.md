@@ -1,49 +1,63 @@
-# 🚀 MLOps & AI Engineering Portfolio
+# 🚀 Portfólio de Engenharia de MLOps & IA
 
-Bem-vindo ao meu portfólio de projetos focados em **MLOps**, **Engenharia de Machine Learning** e **LLMs**. Este repositório consolida implementações práticas de pipelines de dados, orquestração de containers e aplicações de Inteligência Artificial Generativa.
+Olá! Sou **Pablo Serra**. Este repositório centraliza minha jornada prática em **MLOps**, **Engenharia de Dados** e **Inteligência Artificial Generativa**.
 
-## 📂 Projetos
-
-### 1. [Chatbot RAG Local com Docker e Ollama](./03_LLM_RAG_Docker)
-**Stack:** Python, LangChain, ChromaDB, FastAPI, Docker, Vanilla JS.
-
-Uma aplicação Full Stack que implementa o padrão RAG (Retrieval-Augmented Generation). O sistema permite conversar com um LLM (TinyLlama) que possui contexto específico injetado dinamicamente.
-* **Backend:** API construída com FastAPI para gerenciar a ingestão de documentos e consultas.
-* **RAG Service:** Utiliza `LangChain` e `ChromaDB` para indexação vetorial e recuperação de contexto.
-* **Infraestrutura:** Orquestração completa via `docker-compose`, integrando a aplicação com o serviço local do Ollama.
-* **Frontend:** Interface de chat reativa e moderna.
-
-### 2. [Pipeline de Retreino Automático](./02_Pipeline_Retreino)
-**Stack:** Python, Scikit-Learn, Joblib.
-
-Pipeline automatizado para o ciclo de vida de modelos clássicos de Machine Learning. Foca na reprodutibilidade e persistência.
-* Implementação de treinamento supervisionado (Random Forest) no dataset Iris.
-* Divisão automática de treino/teste e avaliação de métricas (Acurácia).
-* Serialização e versionamento de modelos utilizando `joblib` para deploy futuro.
-
-### 3. [Aprendizado Incremental (Online Learning)](./01_Online_Learning)
-**Stack:** Python, River.
-
-Demonstração de aprendizado de máquina em fluxo contínuo (streaming), onde o modelo aprende com novos dados em tempo real sem necessidade de retreino total.
-* Utiliza a biblioteca `River` para classificação de texto incremental (Naive Bayes Multinomial).
-* Loop interativo "Human-in-the-loop" que permite ao usuário corrigir as previsões do modelo, reforçando o aprendizado instantaneamente.
+Aqui você encontrará implementações que vão desde algoritmos de aprendizado em tempo real até arquiteturas completas de nuvem com Infraestrutura como Código (IaC).
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## 🏆 Projeto em Destaque
 
-* **Linguagens:** Python, JavaScript
-* **Machine Learning:** Scikit-Learn, River, LangChain
-* **Vector Database:** ChromaDB
-* **LLM Inference:** Ollama
-* **Web/API:** FastAPI
-* **DevOps:** Docker, Docker Compose
+### ☁️ [Arquitetura MLOps End-to-End na Oracle Cloud (OCI)](https://github.com/Pabloserrapxx/Projeto_MLOps)
+> *Provisionamento de Infraestrutura, Orquestração de Pipelines e Deploy Automatizado.*
 
-## 🚀 Como Executar
+Este é um projeto completo de MLOps que implementa uma esteira de produção na **Oracle Cloud Infrastructure (OCI)**. O objetivo foi eliminar o "works on my machine", criando um ambiente auditável e escalável.
 
-Cada pasta de projeto contém seu próprio `README.md` com instruções detalhadas. Para o projeto principal de LLM, por exemplo:
+* **Infraestrutura como Código (IaC):** Provisionamento de VCNs, Subnets, Compute e Storage utilizando **Terraform**.
+* **CI/CD Pipeline:** Deploy automatizado da infraestrutura e aplicações via **GitHub Actions**.
+* **Ciclo de Vida de ML:** Rastreamento de experimentos com **MLflow** (backend MySQL + Object Storage) e orquestração de DAGs com **Apache Airflow**.
+* **Serving & UI:** API de inferência com **FastAPI** e dashboard interativo com **Streamlit**.
 
-```bash
-cd 03_LLM_RAG_Docker
-docker-compose up --build
-# Acesse em http://localhost:8000
+**Tech Stack:** `Terraform` `GitHub Actions` `OCI` `Docker` `MLflow` `Airflow` `FastAPI`
+
+---
+
+## 📂 Outros Projetos
+
+### 🤖 [Chatbot RAG Local com Docker e Ollama](https://github.com/Pabloserrapxx/LLMs)
+Uma aplicação Full Stack que implementa o padrão **RAG (Retrieval-Augmented Generation)** para interagir com documentos privados usando LLMs locais.
+* **Engine:** Utiliza `LangChain` e `ChromaDB` para indexação vetorial e injeção de contexto.
+* **LLM Local:** Integração com o modelo `TinyLlama` via **Ollama**, rodando totalmente offline.
+* **Arquitetura:** Backend em **FastAPI** e Frontend reativo, tudo conteinerizado via **Docker Compose**.
+
+### 🔄 [Pipeline de Retreino Automático](https://github.com/Pabloserrapxx/Pipeline-de-Re-treino-Autom-tico)
+Focado na reprodutibilidade e persistência de modelos clássicos.
+* Implementação de pipeline supervisionado (Random Forest) com divisão automática de datasets.
+* Serialização de artefatos com `joblib` e padronização de métricas de avaliação.
+
+### 🌊 [Aprendizado Incremental (Online Learning)](https://github.com/Pabloserrapxx/modelo_de_autotreinamento
+)
+Demonstração de aprendizado de máquina em fluxo contínuo (streaming data).
+* Utiliza a biblioteca **River** para treinar um classificador de texto em tempo real.
+* Loop *Human-in-the-loop* que permite corrigir o modelo instantaneamente sem necessidade de retreino total.
+
+---
+
+## 🛠️ Arsenal Tecnológico
+
+| Categoria | Tecnologias |
+| :--- | :--- |
+| **Linguagens** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) ![Bash](https://img.shields.io/badge/Shell_Script-4EAA25?style=flat&logo=gnu-bash&logoColor=white) |
+| **Cloud & IaC** | ![Oracle](https://img.shields.io/badge/Oracle_Cloud-F80000?style=flat&logo=oracle&logoColor=white) ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white) |
+| **MLOps** | ![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat&logo=mlflow&logoColor=white) ![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat&logo=apache-airflow&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=github-actions&logoColor=white) |
+| **Frameworks** | ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white) ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white) |
+| **Data & ML** | `Scikit-Learn` `Pandas` `ChromaDB` `River` |
+
+---
+
+### 📫 Contato
+
+Sinta-se à vontade para explorar os códigos e entrar em contato para discutirmos sobre tecnologia e dados.
+
+[LinkedIn](https://www.linkedin.com/in/pablo-serra-66059b2b0/) • [Email](pabloserrapx4@gmail.com
+)
