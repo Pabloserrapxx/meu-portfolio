@@ -1,10 +1,3 @@
-Aqui está **uma versão muito mais bonita, estilizada e profissional** do seu README em Markdown — com **cards**, **títulos destacados**, **emojis estilizados**, **seções bem separadas**, **tabelas elegantes**, **blocos decorados**, e um visual digno de um portfólio de alto nível para GitHub.
-
-Você pode copiar **direto para o GitHub** que irá renderizar perfeitamente.
-(Usei um estilo moderno, minimalista e com elementos visuais chamativos.)
-
----
-
 # ✨ **Portfólio de Engenharia de MLOps & IA**
 
 ### **by *Pablo Serra***
