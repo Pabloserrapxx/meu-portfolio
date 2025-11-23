@@ -35,7 +35,7 @@ Focado na reprodutibilidade e persistência de modelos clássicos.
 * Implementação de pipeline supervisionado (Random Forest) com divisão automática de datasets.
 * Serialização de artefatos com `joblib` e padronização de métricas de avaliação.
 
-### 🌊 [Aprendizado Incremental (Online Learning)](https://github.com/Pabloserrapxx/modelo_de_autotreinamento
+### 🌊 [Aprendizado Incremental ](https://github.com/Pabloserrapxx/modelo_de_autotreinamento
 )
 Demonstração de aprendizado de máquina em fluxo contínuo (streaming data).
 * Utiliza a biblioteca **River** para treinar um classificador de texto em tempo real.
