@@ -45,7 +45,7 @@ Este projeto implementa uma esteira de produção completa na **Oracle Cloud Inf
 
 ## 📂 Projetos Selecionados
 
-### 🎓 [Assistente Acadêmico Inteligente UnB](./unb-sistemas-de-machine-learning)
+### 🎓 [Assistente Acadêmico Inteligente UnB](https://github.com/unb-Sistemas-de-Machine-learning/Grupo2-ChiquinhoAI)
 *NLP & Generative AI | Tópicos Especiais de Eng. de Software*
 
 Uma API inteligente que utiliza **RAG (Retrieval-Augmented Generation)** para responder dúvidas de alunos da Universidade de Brasília.
