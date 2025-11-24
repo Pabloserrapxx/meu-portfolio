@@ -5,7 +5,7 @@
 ### Pablo Serra
 *Transformando dados em soluções escaláveis e inteligentes.*
 
-#[Click Aqui para ir no meu portfólio]https://pabloserrapxx.github.io/meu-portfolio/
+[Click Aqui para ir no meu portfólio]https://pabloserrapxx.github.io/meu-portfolio/
 
 ---
 
