@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pablo Serra | MLOps & AI Engineer</title>
+    <meta name="description"
+        content="Portfólio de Engenharia de MLOps & IA de Pablo Serra. Transformando dados em soluções escaláveis e inteligentes.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Orbitron:wght@400;500;700;900&family=Inter:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <canvas id="bg-canvas"></canvas>
+    <div class="overlay"></div>
+
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">PS<span class="dot">.</span>AI</a>
+                <ul class="nav-links">
+                    <li><a href="#about" data-text="Sobre">Sobre</a></li>
+                    <li><a href="#projects" data-text="Projetos">Projetos</a></li>
+                    <li><a href="#skills" data-text="Skills">Skills</a></li>
+                    <li><a href="#contact" data-text="Contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content fade-in">
+                    <div class="glitch-wrapper">
+                        <p class="hero-tagline">System.init(User: "Pablo Serra")</p>
+                    </div>
+                    <h1 class="glitch" data-text="Engenharia de MLOps & IA">Engenharia de MLOps & IA</h1>
+                    <p class="hero-description">
+                        <span class="code-prefix">></span> Transformando dados em soluções escaláveis e inteligentes.
+                        Especialista em criar pontes entre modelos de Machine Learning e produção.
+                    </p>
+                    <div class="social-links">
+                        <a href="https://github.com/Pabloserrapxx" target="_blank" class="social-btn">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                        <a href="https://www.linkedin.com/in/pablo-serra-66059b2b0/" target="_blank" class="social-btn">
+                            <i class="fab fa-linkedin"></i> LinkedIn
+                        </a>
+                        <a href="mailto:pabloserrapx4@gmail.com" class="social-btn">
+                            <i class="fas fa-envelope"></i> Email
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="container fade-in">
+            <div class="glass-card">
+                <h2><span class="hash">#</span> Sobre Mim</h2>
+                <div class="terminal-text">
+                    <p>
+                        Este portfólio centraliza minha jornada prática em <strong>MLOps</strong>, <strong>Engenharia de
+                            Dados</strong> e <strong>Inteligência Artificial Generativa</strong>.
+                        Aqui você encontrará implementações que vão desde algoritmos de aprendizado em tempo real até
+                        arquiteturas completas de nuvem com Infraestrutura como Código (IaC).
+                    </p>
+                    <p>
+                        Meu foco é eliminar o problema de "works on my machine", criando ambientes auditáveis,
+                        reprodutíveis e escaláveis para soluções de IA.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="container">
+            <h2 class="section-title fade-in"><span class="hash">#</span> Projetos em Destaque</h2>
+
+            <div class="projects-grid">
+                <!-- Featured Project -->
+                <article class="project-card fade-in">
+                    <div class="card-content">
+                        <h3>Arquitetura MLOps End-to-End na OCI</h3>
+                        <p>Provisionamento de Infraestrutura, Orquestração de Pipelines e Deploy Automatizado na Oracle
+                            Cloud Infrastructure.</p>
+                        <div class="project-tags">
+                            <span class="tag">Terraform</span>
+                            <span class="tag">Oracle Cloud</span>
+                            <span class="tag">Docker</span>
+                            <span class="tag">MLflow</span>
+                            <span class="tag">Airflow</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Pabloserrapxx/Projeto_MLOps" target="_blank"
+                                class="project-link">
+                                <i class="fab fa-github"></i> Ver Código
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="project-card fade-in">
+                    <div class="card-content">
+                        <h3>Assistente Acadêmico Inteligente UnB</h3>
+                        <p>API inteligente que utiliza RAG (Retrieval-Augmented Generation) para responder dúvidas de
+                            alunos, com busca semântica e integração com Google Gemini.</p>
+                        <div class="project-tags">
+                            <span class="tag">RAG</span>
+                            <span class="tag">Qdrant</span>
+                            <span class="tag">Gemini API</span>
+                            <span class="tag">NLP</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/unb-Sistemas-de-Machine-learning/Grupo2-ChiquinhoAI"
+                                class="project-link">
+                                <i class="fab fa-github"></i> Ver Código
+                            </a>
+
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 3 -->
+                <article class="project-card fade-in">
+                    <div class="card-content">
+                        <h3>Chatbot RAG Local (Privacidade & Offline)</h3>
+                        <p>Implementação de RAG para documentos privados rodando 100% localmente com LangChain e Ollama.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">LangChain</span>
+                            <span class="tag">ChromaDB</span>
+                            <span class="tag">Ollama</span>
+                            <span class="tag">FastAPI</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Pabloserrapxx/LLMs" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i> Ver Código
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 4 -->
+                <article class="project-card fade-in">
+                    <div class="card-content">
+                        <h3>Pipeline de Retreino Automático</h3>
+                        <p>Pipeline supervisionado focado em robustez e reprodutibilidade com serialização automática de
+                            artefatos.</p>
+                        <div class="project-tags">
+                            <span class="tag">Scikit-Learn</span>
+                            <span class="tag">Joblib</span>
+                            <span class="tag">Automation</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Pabloserrapxx/Pipeline-de-Re-treino-Autom-tico" target="_blank"
+                                class="project-link">
+                                <i class="fab fa-github"></i> Ver Código
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 5 -->
+                <article class="project-card fade-in">
+                    <div class="card-content">
+                        <h3>Aprendizado Incremental (Streaming)</h3>
+                        <p>Demonstração de fluxo contínuo de dados utilizando a biblioteca River com Human-in-the-loop.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">River</span>
+                            <span class="tag">Online Learning</span>
+                            <span class="tag">Streaming</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Pabloserrapxx/modelo_de_autotreinamento" target="_blank"
+                                class="project-link">
+                                <i class="fab fa-github"></i> Ver Código
+                            </a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="skills" class="container">
+            <h2 class="section-title fade-in"><span class="hash">#</span> Arsenal Tecnológico</h2>
+            <div class="skills-grid fade-in">
+                <div class="skill-item">
+                    <i class="fab fa-python skill-icon"></i>
+                    <span>Python</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-js skill-icon"></i>
+                    <span>JavaScript</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-database skill-icon"></i>
+                    <span>SQL</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-docker skill-icon"></i>
+                    <span>Docker</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-cloud skill-icon"></i>
+                    <span>Oracle OCI</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-code-branch skill-icon"></i>
+                    <span>Terraform</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-project-diagram skill-icon"></i>
+                    <span>MLflow</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-wind skill-icon"></i>
+                    <span>Airflow</span>
+                </div>
+            </div>
+        </section>
+
+
+        <in>
+
+            <foter>
+                <di class="container">
+                    <pcopy; 2025 Pablo Serra. MLOps & AI Engineering.</p>
+                        <p class="footer-quote">"Data is the new oil, but MLOps is the refinery."</p>
+                        v>
+                        </oter>
+
+                        <script src="script.js"></script>
+</body>
+
+</html>
